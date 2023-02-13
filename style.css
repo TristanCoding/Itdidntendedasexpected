@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster:300');
+
+@font-face {
+    font-family: "Lobster-Regular";
+    src: url(Fonts/Lobster-Regular.ttf) format(ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Lobster-Regular;
+    color:white
+}
+html, body {
+    background-color: rgba(0, 0, 0, .6);
+    background-image: url(Images/Flower.jpg);
+    background-size: cover;
+    background-blend-mode: multiply;
+    margin: 0;
+    padding: 0%;
+    font-family: Arial, sans-serif;
+    color: #333
+  }
+  ul {
+    margin: 0;
+  }
+.nav ul {
+    margin: 0;
+}
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+}
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
+.main-nav a:hover {
+    animation: ease-in .4;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+.main-nav li {
+    padding: 0 5%;
+}
+h1 {
+    size: 2em;
+}
+  .header {
+    background-color: rgba(255, 255, 255, 0.2);
+    background-image: url(Images/istockphoto-464836779-612x612.jpg);
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  
+  .footer {
+    background-color: rgb(255, 0, 0);
+    padding: 10px;
+    text-align: center;
+  }
+  .main-footer {
+    background-color: red;
+    padding: .25em 0;
+    flex-grow: 1;
+    align-items: center;
+    padding: 0.4 1em;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+  }
+
+  .section {
+    padding: 10px;
+    font-size: 1.5em;
+    margin: 0 auto;
+    max-width: 1100px;
+    text-align: center;
+  }
+.girl-name {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: "Lobster-Regular";
+}
+.footer-hidden {
+    color: rgba(0, 0, 0, 0);
+    text-decoration: none;
+    text-align: center;
+    text-decoration-color: rgba(255, 0, 0, 0);
+}
+.section-hidden {
+    text-align: center;
+    font-size: 3em;
+}
+.main {
+    text-align: center;
+}

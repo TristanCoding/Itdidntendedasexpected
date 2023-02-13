@@ -1,0 +1,12 @@
+.labite2{
+    align-items: center;
+    cursor: pointer;  
+    display: inline-flex;
+    gap: 5px;
+    padding: 10px 20px;
+    position: fixed;
+    text-decoration: none;
+    text-decoration-color: white;
+    transition: background-color 400ms, border-color 400ms;
+    z-index: 10000;
+    }
